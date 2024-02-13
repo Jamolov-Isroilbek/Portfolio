@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section class="hero">
+      <img
+        id="toggleTheme"
+        class="theme-btn"
+        src="assets/theme_light.png"
+        alt="theme icon"
+      />
+      <div class="hero-pic">
+        <div class="inner-circle"></div>
+        <img src="assets/profile-pic.png" alt="Isroilbek Jamolov" />
+      </div>
+      <div class="hero-info">
+        <h1>Isroilbek Jamolov</h1>
+        <h2>Computer Science Student</h2>
+        <div class="logo-container">
+          <a href="https://github.com/Jamolov-Isroilbek"
+            ><img src="assets/github_light.png" alt="github logo"
+          /></a>
+          <a href="https://linkedin.com/in/isroilbek-jamolov"
+            ><img src="assets/linkedin_light.png" alt="linkedin logo"
+          /></a>
+          <a href="mailto:jamolovisroilbek@gmail.com"
+            ><img src="assets/email_light.png" alt="email logo"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="experience" >
+      <h2><b>3</b><br />Years<br />Frontend</h2>
+      <h2><b>2</b><br />Years<br />B.Sc. (ongoing) </h2>
+      <h2><b>4</b><br />Satisfied<br />Employers</h2>
+    </section> -->
+    <section class="education">
+      <h2>Education</h2>
+      <div class="education-content">
+        <h3>Eötvös Loránd University (ELTE)</h3>
+        <p>BS in Computer Science - Sophomore Year</p>
+        <p>Expected Graduation: Summer 2025</p>
+      </div>
+    </section>
+    <section class="cta">
+      <a href="assets/Jamolov_Isroilbek_CV.pdf" download>
+        <button class="btn download-btn">Download CV</button>
+      </a>
+      <a href="mailto:jamolovisroilbek@gmail.com"
+        ><button class="btn contact-btn">Contact Me</button></a
+      >
+    </section>
+    <section class="portfolio-skills">
+      <div class="btn-bg">
+        <button class="btn-2 active-btn" id="portfolio-btn">Portfolio</button>
+        <button class="btn-2" id="skills-btn">Skills</button>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">  
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/Jamolov-Isroilbek/MapMaker"
+          ><img src="assets/map-maker.png" alt="Map Maker"
+        /></a>
+      </div>
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/Jamolov-Isroilbek/Pokemon-Trading-Card"
+          ><img src="assets/pokemon.png" alt="Pokemon Trading Card Game"
+        /></a>
+      </div>
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/Jamolov-Isroilbek/TronGame"
+          ><img src="assets/tron-game.png" alt="Tron Game"
+        /></a>
+      </div>
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/Jamolov-Isroilbek/IoT-Home-Simulation"
+          ><img src="assets/iot-home-simulation.png" alt="IoT Home Simulation"
+        /></a>
+      </div>
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/Jamolov-Isroilbek/RubikClock"
+          ><img src="assets/rubiks-clock.png" alt="Rubik's Clock"
+        /></a>
+      </div>
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/Jamolov-Isroilbek/Gaussian-Elimination"
+          ><img src="assets/gaussian-elimination.png" alt="Gaussian Elimination"
+        /></a>
+      </div>
+      <div class="wrapper project-wrapper">
+        <a href="https://github.com/Jamolov-Isroilbek/Atmosphere-Simulation"
+          ><img src="assets/atmosphere-simulation.png" alt="Atmosphere Simulation"
+        /></a>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="wrapper">
+        <h3>Technical Skills</h3>
+        <article class="frontend-skills">
+          <p>Java</p>
+          <p>Python</p>
+          <p>C#</p>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+          <p>PHP</p>
+          <p>SQL</p>
+          <p>C</p>
+          <p>GitHub</p>
+          <p>Git</p>
+          <p>Linux</p>
+          <p>PowerShell</p>
+          
+        </article>
+      </div>
+      <div class="wrapper">
+        <h3>Professional Skills</h3>
+        <article class="backend-skills">
+          <!-- <p>Software Tools</p> -->
+          <p>Unit Testing</p>
+          <p>OOP</p>
+          <p>Algorithms</p>
+          <p>Data Structures</p>
+          <p>Functional Programming</p>
+          <p>Design Patterns</p>
+          <!-- <p>Problem Solving</p>
+          <p>Reasoning</p>
+          <p>Critical Thinking</p>
+          <p>Problem Solving</p> -->
+          <!-- <p>Communication</p> -->
+          <!-- <p>Teamwork</p>
+          <p>Collaboration</p> -->
+        </article>
+      </div>
+    </section>
+    <footer>
+      <p>&copy Isroilbek Jamolov 2024</p>
+    </footer>
+  </body>
+</html>
